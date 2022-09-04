@@ -20,4 +20,3 @@ for seq in num1:
     print(seq)             
     for seq2 in num2:
         print(seq2)
-
