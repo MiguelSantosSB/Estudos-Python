@@ -17,8 +17,3 @@ print(msg)
 msg = 'Usuário logado.' if login_user else 'Usuário precisa logar.'
 
 print(msg)
-
-
-
-
-
