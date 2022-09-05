@@ -11,12 +11,22 @@ For / While
  8      2 
 """
 
+# FOR
+# num = range(9)
+# num2 = range(10,1,-1)
+# a mesma coisa feita por outra função
+# num2 = [2,3,4,5,6,7,8,9,10]
+# num2.reverse()
 
-num1 = range(9)
-num2 = range((11-1), 1, -1)
+# for cont, cont2 in zip(num, num2):
+#     print(cont, cont2)
 
+# WHILE
+# num = 0
+# num2 = 10
 
-for seq in num1:
-    print(seq)             
-    for seq2 in num2:
-        print(seq2)
+# while num < 9:
+#     while num2 > 1:
+#         print(f'{num}, {num2}')
+#         num2 -= 1
+#         num += 1
