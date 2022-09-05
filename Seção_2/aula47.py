@@ -25,8 +25,7 @@ For / While
 # num = 0
 # num2 = 10
 
-# while num < 9:
-#     while num2 > 1:
+# while num < 9 and num2 > 1:
 #         print(f'{num}, {num2}')
 #         num2 -= 1
 #         num += 1
