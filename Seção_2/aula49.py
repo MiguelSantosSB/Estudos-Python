@@ -20,44 +20,36 @@ digito 1 = 0            #
 
 lista = '168995350'
 resul = []
-
-# num1 = int(lista[0])
-# num1 = num1 * 10
-# print(num1)
-# for c, teste in enumerate(lista):
-#     list = []   
-#     list.append(teste)
-#     print(list[1])
-
-
+resul2 = []
 a = list(range(10, 1, -1))
 d = list(range(11, 1, -1))
 mult = []
+mult2 = []
 result = 0
+result2 = 0
 
 for b, teste in enumerate(lista):
     teste = int(teste)
     resul = teste * a[b]
     mult.append(resul)
-    # print(f'{teste} * {c[b]} = {resul}')
     result += mult[b]
-    # print(mult)
-    # print(result)
 
-# print(f'{result}')
 digit1 = 11 - (result % 11) 
-# print(digit1)
-
 
 if digit1 > 9:
     soma = 0 
     lista = lista + str(soma)
-    print(lista)
 
 for c, teste2 in enumerate(lista):
     teste2 = int(teste2)
-    resul2 = teste2 * c[d]
-    mult.append(resul2)
-    print(f'{teste2} * {d[c]} = {resul2}')
-    result += mult[c]
-    
+    resul2 = teste2 * d[c]
+    mult2.append(resul2)
+    result2 += mult2[c]
+
+digit2 = 11 - (result2 % 11)
+
+if digit2 < 11:
+    soma2 = 9
+    lista = lista + str(soma2)
+
+print(f'Seu Cpf completo e: {lista}')
