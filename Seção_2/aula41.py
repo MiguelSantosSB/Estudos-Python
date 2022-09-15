@@ -29,10 +29,10 @@ for valor in lista2:
 lista = str.split(' ')
 str2 = ' '.join(lista)
 
-"""print(str)
-print(lista)
-print(str2)"""
+# print(str)
+# print(lista)
+# print(str2)
 
-for indice, valor in enumerate(lista):
-    print(indice, valor, lista[indice])
+# for indice, valor in enumerate(lista):
+#     print(indice, valor, lista[indice])
 # valor e lista[indice] são a mesma coisa nesse caso
