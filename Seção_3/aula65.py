@@ -14,9 +14,7 @@ exercício
             se não encontrar duplicada na lista, retorne -1 
 """
 
-from unicodedata import numeric
-
-
+# PROFESSOR QUEM FEZ, EU NÃO CONSEGUI FAZER
 lista_de_listas_de_inteiros = [
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     [9, 1, 8, 9, 9, 7, 2, 1, 6, 8],
@@ -32,19 +30,20 @@ lista_de_listas_de_inteiros = [
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
 
-# for cont, teste  in enumerate(list(lista_de_listas_de_inteiros)):
-#     print(lista_de_listas_de_inteiros[cont])
 
-#     if teste[cont] == teste[cont]:
-#         print('repetido')
-#     else:
-#         print('não repete')
-  
-# for a, teste in enumerate(lista_de_listas_de_inteiros):
-#     print(a, teste)
-#     print(teste[a][])
+def encontra_primeiro_duplicado(param_lista_de_inteiros):
+    numeros_checados = set()
+    primeiro_duplicado = -1
 
-for num,teste in enumerate(lista_de_listas_de_inteiros):
-    print(lista_de_listas_de_inteiros[num])
-    for eh in teste:
-        print(eh)
+    for numero in param_lista_de_inteiros:
+        if numero in numeros_checados:
+            primeiro_duplicado = numero
+            break
+
+        numeros_checados.add(numero)
+
+    return primeiro_duplicado
+
+
+for lista_de_inteiros in lista_de_listas_de_inteiros:
+    print(lista_de_inteiros, encontra_primeiro_duplicado(lista_de_inteiros))
