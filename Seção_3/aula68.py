@@ -13,7 +13,6 @@ for i in range(0,len(string), 10):
     teste = list(teste)
 
 nova = teste[0:10]
-
 a = 0
 while a < 5:
     teste += nova
