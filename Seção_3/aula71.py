@@ -23,10 +23,5 @@ print(sys.getsizeof(lista))
 # objetos geradores ocupa menos espaço e armazenam em grandes quantiades se necessário
 lista = (x for x in range(10000))
 print(type(lista))
-<<<<<<< HEAD
 # print(sys.getsizeof(lista))
-=======
-print(sys.getsizeof(lista))
-
-# aaaaaa
->>>>>>> 615599f8b6d6a96c504b14f9d0fa6bbf269f78e9
+# a
