@@ -24,3 +24,5 @@ print(sys.getsizeof(lista))
 lista = (x for x in range(10000))
 print(type(lista))
 print(sys.getsizeof(lista))
+
+# aaaaaa
