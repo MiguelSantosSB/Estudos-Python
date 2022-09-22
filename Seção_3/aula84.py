@@ -12,11 +12,11 @@ Tratando Exceções em Python
 # porém, por não ter 'rodado', ele pula para o except e roda oque 
 # está no except.
 
-try:
-    print(a)
-except NameError as erro:
-    print('erro',erro)
-except IndexError as erro:
-    print('erro',erro)
-except SyntaxError as erro:
-    print('erro',erro)
+# try:
+#     print(a)
+# except NameError as erro:
+#     print('erro',erro)
+# except IndexError as erro:
+#     print('erro',erro)
+# except SyntaxError as erro:
+#     print('erro',erro)
