@@ -14,7 +14,7 @@ def converte_numero(valor):
             pass
 while True:
 
-    numero = input('Digite um número: ')
+    numero = converte_numero(input('Digite um número: '))
     if numero is None:
         print('Error: isso não e um numero.')     
     else:
