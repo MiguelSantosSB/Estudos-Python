@@ -24,6 +24,5 @@
 
 # teste = juntos(nome, 'Lucas')
 # teste2 = juntos(sad, 'Lucas','Bom dia')
-
 # print(teste)
 # print(teste2)
