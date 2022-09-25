@@ -1,4 +1,3 @@
-
 variavel = 'valor'
 
 def teste():
