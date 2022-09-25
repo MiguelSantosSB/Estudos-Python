@@ -34,5 +34,4 @@ lista.sort(key = lambda item : item[1])
 
 # nesse caso irá ser do meior para o menor 
 # lista.sort(key = func, reverse = True)
-
 print(lista)
