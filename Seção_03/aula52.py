@@ -14,7 +14,6 @@ else:
 
 def divisao(n1, n2):
     if n2 > 0:
-
         return int(n1 / n2)
 
 divide = divisao(8,2)
