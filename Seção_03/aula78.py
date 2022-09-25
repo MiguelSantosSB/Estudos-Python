@@ -13,3 +13,4 @@ for teste in contador:
     print(teste)
     if teste == 10:
         break
+
