@@ -7,3 +7,4 @@ carrinho.append(('produto 3', 50))
 teste = [(y) for x, y in carrinho]
 teste = sum(list(teste))
 print(teste)
+
