@@ -26,3 +26,4 @@ for grupo, valores  in alunos_agrupados:
     # grupo vai ser o referencial para separar os alunos
     for aluno in valores:
         print(aluno)
+        
