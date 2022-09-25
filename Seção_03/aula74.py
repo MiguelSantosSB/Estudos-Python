@@ -11,3 +11,4 @@ carrinho.append(('produto 3', 50))
 total = sum([float(y) for x,y in carrinho])
 print(carrinho)
 print(total)
+
