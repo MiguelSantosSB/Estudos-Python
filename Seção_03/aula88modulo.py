@@ -16,3 +16,4 @@ if __name__ == '__main__':
     print(dobra_list(lista))
     print(multiplica(lista))
     print(PI)
+
