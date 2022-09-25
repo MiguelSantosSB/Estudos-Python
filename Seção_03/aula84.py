@@ -20,3 +20,4 @@ Tratando Exceções em Python
 #     print('erro',erro)
 # except SyntaxError as erro:
 #     print('erro',erro)
+
