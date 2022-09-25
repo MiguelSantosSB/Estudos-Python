@@ -19,21 +19,3 @@ def soma_da_multipliacacao(lista,multiplicador):
     digit = 11 - (soma % 11)
 
     print(digit)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

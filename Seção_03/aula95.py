@@ -103,3 +103,4 @@ else:
     print('Este cnpj não e valido!')
     print(f'Cnpj dado: {cnpj}')
     print(f'Cnpj validado: {novo_cnpj}')
+
