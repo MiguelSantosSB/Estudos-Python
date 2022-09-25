@@ -19,3 +19,4 @@ while True:
         print('Error: isso não e um numero.')     
     else:
         print(numero * 2)
+
