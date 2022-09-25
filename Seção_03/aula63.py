@@ -32,7 +32,6 @@ perguntas = {
 }
 
 resp_certas = 0
-
 for pk, pv in perguntas.items():
     print(f'{pk}: {pv["pergunta"]}')
 
