@@ -16,4 +16,3 @@ try:
 except ValueError as error:
     print('Você está tentando dividir por "0"')
     print('Log:', error)
-
