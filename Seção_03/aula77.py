@@ -18,3 +18,4 @@ lista_b     = [1, 2, 3, 4]
 
 teste = [(x + y) for x, y in zip(lista_a, lista_b)]
 print(teste)
+
