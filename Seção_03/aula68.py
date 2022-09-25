@@ -20,3 +20,4 @@ while a < 5:
 
 teste = '.'.join(teste)
 print(teste)
+
