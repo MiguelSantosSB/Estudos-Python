@@ -1,7 +1,6 @@
 """
 Comportamento de geradores e iteradores
 """
-
 nome = 'miguel santos'
 iterador = iter(nome)
 gerador = (letra for letra in nome)
