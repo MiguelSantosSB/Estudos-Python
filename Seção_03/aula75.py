@@ -23,4 +23,3 @@ print(list(cidades_estados))
 # Para utilizar esse zip e preciso importar 
 # e no caso de uma lista menor será adicionado 'None' nos espaços em falta
 # podendo ser substituido o 'None' por qualquer coisa com a função: 'fillvalue'= "palavra escolhida" 
-
