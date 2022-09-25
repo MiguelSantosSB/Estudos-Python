@@ -34,3 +34,4 @@ Criando, Lendo, Escrevendo e Apagando Arquivos em Python
 # APENAS LENDO O ARQUIVO .TXT
 # with open('aula90.txt', 'r+') as file:
 #     print(file.read())
+
