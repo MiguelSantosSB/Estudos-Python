@@ -27,3 +27,4 @@ for grupo in product(pessoas, repeat=2):
 # ou seja, poderá ocorrer de ter: ('maicon','pedro') e ('pedro','maicon')
 # existirar: ('maicon','maicon') de acordo como pedido no 'repeat'
 print('#' * 80)
+
