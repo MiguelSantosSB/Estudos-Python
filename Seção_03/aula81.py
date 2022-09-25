@@ -20,3 +20,4 @@ nomes = map(lambda p: p['nome'], pessoas)
 
 for nomes in nomes:
     print(nomes)
+
