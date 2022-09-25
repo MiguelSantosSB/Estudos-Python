@@ -33,5 +33,3 @@ lista3 = range(100)
 # vai buscar os números divisiveis por 3 e por 8 
 ex6 = [v for v in lista3 if v % 3 == 0 if v % 8 == 0]
 # print(ex6)
-
-
