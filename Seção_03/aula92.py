@@ -35,3 +35,4 @@ variavel = master(fala_oi)
 # eh como se tivesse executando essa função diretamente
 # variavel()
 fala_oi()
+
