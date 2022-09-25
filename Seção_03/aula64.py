@@ -11,7 +11,6 @@ symmetric_difference ^ (elementos que estão nos dois sets, mas não em ambos)
 # eles não tem indice então não tem como acessar um valor especifico do set
 
 set1 = {1,2,3,4,5}
-
 # print(set1)
 
 l1 = [1,2,3,4,5,6,6,6,6,6,6,6,7,8,9,'luiz','luiz']
