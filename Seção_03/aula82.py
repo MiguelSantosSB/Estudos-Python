@@ -26,3 +26,4 @@ novo_dado2 = filter(filtra2, produto)
 
 # for novo_dado2 in novo_dado2:
     # print(novo_dado2)
+
