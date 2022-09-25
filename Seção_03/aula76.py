@@ -19,4 +19,3 @@ lista_b     = [1, 2, 3, 4]
 lista_final = zip(lista_a, lista_b)
 teste = [(x + y) for x, y in lista_final]
 print(teste)
-
