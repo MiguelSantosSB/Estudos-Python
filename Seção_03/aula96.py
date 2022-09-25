@@ -29,3 +29,4 @@ if aula96_2.valida(cnpj1):
     print(f'{cnpj1} é válido')
 else:
     print(f'{cnpj1} é inválido')
+
