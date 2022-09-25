@@ -12,3 +12,4 @@ print(platform)
 from random import randint as aleatorio
 for i in range(10):
     print(aleatorio(0,10))
+
