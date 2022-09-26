@@ -50,57 +50,57 @@ for x, y in enumerate(novo_cnpj):
 digit = 11 - (result1 % 11)
     # print(digit)
 
-# b = aula95_2.soma_da_multipliacacao(cnpj, teste3, soma)
-# print(b)
+b = aula95_2.soma_da_multipliacacao(cnpj, teste1)
+print(b)
 
-if digit > 9:
-    novo_digito = 0
-    novo_digito = str(novo_digito)
-    novo_cnpj.append(novo_digito)
-    # print(novo_cnpj)
-else:
-    novo_digito = digit
-    novo_digito = str(novo_digito)
-    novo_cnpj.append(novo_digito)
-    # print(novo_cnpj)
+# if digit > 9:
+#     novo_digito = 0
+#     novo_digito = str(novo_digito)
+#     novo_cnpj.append(novo_digito)
+#     # print(novo_cnpj)
+# else:
+#     novo_digito = digit
+#     novo_digito = str(novo_digito)
+#     novo_cnpj.append(novo_digito)
+#     # print(novo_cnpj)
 
-teste2 = list(range(6,1,-1)) + list(range(9,1,-1))
-    # print(teste2)
-mult2 = []
-resul2 = []
-result2 = 0
+# teste2 = list(range(6,1,-1)) + list(range(9,1,-1))
+#     # print(teste2)
+# mult2 = []
+# resul2 = []
+# result2 = 0
 
-for x, y in enumerate(novo_cnpj):
-    y = int(y)
-    mult2 = y * teste2[x]
-    resul2.append(mult2)
-    result2 += resul2[x]
-    # print(result2)
-digit2 = 11 - (result2 % 11)
-    # print(digit)
+# for x, y in enumerate(novo_cnpj):
+#     y = int(y)
+#     mult2 = y * teste2[x]
+#     resul2.append(mult2)
+#     result2 += resul2[x]
+#     # print(result2)
+# digit2 = 11 - (result2 % 11)
+#     # print(digit)
 
-if digit2 > 9:
-    novo_digito = 0
-    novo_digito = str(novo_digito)
-    novo_cnpj.append(novo_digito)
-    # print(novo_cnpj)
-else:
-    novo_digito = digit2
-    novo_digito = str(novo_digito)
-    novo_cnpj.append(novo_digito)
-    # print(novo_cnpj)
+# if digit2 > 9:
+#     novo_digito = 0
+#     novo_digito = str(novo_digito)
+#     novo_cnpj.append(novo_digito)
+#     # print(novo_cnpj)
+# else:
+#     novo_digito = digit2
+#     novo_digito = str(novo_digito)
+#     novo_cnpj.append(novo_digito)
+#     # print(novo_cnpj)
 
-# print(cnpj)
-# print(novo_cnpj)
+# # print(cnpj)
+# # print(novo_cnpj)
 
-cnpj = list(aula95_2.removendo_caracteres(cnpj))
-if novo_cnpj == cnpj:
-    print('Este cnpj e valido!')
-    print(f'Cnpj dado: {cnpj}')
-    print(f'Cnpj validado: {novo_cnpj}')
+# cnpj = list(aula95_2.removendo_caracteres(cnpj))
+# if novo_cnpj == cnpj:
+#     print('Este cnpj e valido!')
+#     print(f'Cnpj dado: {cnpj}')
+#     print(f'Cnpj validado: {novo_cnpj}')
 
-else: 
-    print('Este cnpj não e valido!')
-    print(f'Cnpj dado: {cnpj}')
-    print(f'Cnpj validado: {novo_cnpj}')
+# else: 
+#     print('Este cnpj não e valido!')
+#     print(f'Cnpj dado: {cnpj}')
+#     print(f'Cnpj validado: {novo_cnpj}')
 
