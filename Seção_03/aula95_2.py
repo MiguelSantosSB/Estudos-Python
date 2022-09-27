@@ -9,16 +9,14 @@ def removendo_caracteres(cnpj):
 
 
 def soma_da_multipliacacao(lista,multiplicador):
-
+    resultado = []
     soma = 0
     for y, x in enumerate(lista):
-    
-        resultado = []
+        # resultado = []
         x = int(x)
         multiplicacao = x * multiplicador[y]
         resultado.append(multiplicacao)
-        soma += resultado[y]
-    
+        # resultado = sum(resultado)
+    soma = sum(resultado)
     digit = 11 - (soma % 11)
-
-    print(digit)
+    return digit

@@ -28,79 +28,44 @@ novo_cnpj = list(aula95_2.removendo_caracteres(cnpj))
     # preciso tirar os "." ,  "/" e "-"
     # depois tirar os 2 ultimos números
 del novo_cnpj[13]
-    # print(cnpj)
 del novo_cnpj[12]
-    # print(cnpj)
     # excluindo o 2 ultimos números
 
 teste1 = list(range(5,1,-1)) + list(range(9,1,-1))
-# print(teste1)
-    # Pegando e organizando a segunda lista
 
-mult1 = []
-resul1 = []
-result1 = 0
+b = aula95_2.soma_da_multipliacacao(novo_cnpj, teste1)
 
-for x, y in enumerate(novo_cnpj):
-    y = int(y)
-    mult1 = y * teste1[x]
-    resul1.append(mult1)
-    result1 += resul1[x]
+if b > 9:
+    novo_digito = 0
+    novo_digito = str(novo_digito)
+    novo_cnpj.append(novo_digito)
 
-digit = 11 - (result1 % 11)
-    # print(digit)
+else:
+    novo_digito = b
+    novo_digito = str(novo_digito)
+    novo_cnpj.append(novo_digito)
 
-b = aula95_2.soma_da_multipliacacao(cnpj, teste1)
-print(b)
+teste1.insert(0,6)
 
-# if digit > 9:
-#     novo_digito = 0
-#     novo_digito = str(novo_digito)
-#     novo_cnpj.append(novo_digito)
-#     # print(novo_cnpj)
-# else:
-#     novo_digito = digit
-#     novo_digito = str(novo_digito)
-#     novo_cnpj.append(novo_digito)
-#     # print(novo_cnpj)
+a = aula95_2.soma_da_multipliacacao(novo_cnpj, teste1)
 
-# teste2 = list(range(6,1,-1)) + list(range(9,1,-1))
-#     # print(teste2)
-# mult2 = []
-# resul2 = []
-# result2 = 0
+if a > 9:
+    novo_digito = 0
+    novo_digito = str(novo_digito)
+    novo_cnpj.append(novo_digito)
 
-# for x, y in enumerate(novo_cnpj):
-#     y = int(y)
-#     mult2 = y * teste2[x]
-#     resul2.append(mult2)
-#     result2 += resul2[x]
-#     # print(result2)
-# digit2 = 11 - (result2 % 11)
-#     # print(digit)
+else:
+    novo_digito = a
+    novo_digito = str(novo_digito)
+    novo_cnpj.append(novo_digito)
 
-# if digit2 > 9:
-#     novo_digito = 0
-#     novo_digito = str(novo_digito)
-#     novo_cnpj.append(novo_digito)
-#     # print(novo_cnpj)
-# else:
-#     novo_digito = digit2
-#     novo_digito = str(novo_digito)
-#     novo_cnpj.append(novo_digito)
-#     # print(novo_cnpj)
+cnpj = list(aula95_2.removendo_caracteres(cnpj))
+if novo_cnpj == cnpj:
+    print('Este cnpj e valido!')
+    print(f'Cnpj dado: {cnpj}')
+    print(f'Cnpj validado: {novo_cnpj}')
 
-# # print(cnpj)
-# # print(novo_cnpj)
-
-# cnpj = list(aula95_2.removendo_caracteres(cnpj))
-# if novo_cnpj == cnpj:
-#     print('Este cnpj e valido!')
-#     print(f'Cnpj dado: {cnpj}')
-#     print(f'Cnpj validado: {novo_cnpj}')
-
-# else: 
-#     print('Este cnpj não e valido!')
-#     print(f'Cnpj dado: {cnpj}')
-#     print(f'Cnpj validado: {novo_cnpj}')
-
+else: 
+    print('Este cnpj não e valido!')
+    print(f'Cnpj dado: {cnpj}')
+    print(f'Cnpj validado: {novo_cnpj}')
