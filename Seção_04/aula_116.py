@@ -24,3 +24,6 @@ teste2 = horario('Boa Noite')
 
 print(teste1('Miguel'))
 print(teste2('Matheus'))
+
+for name in ['Lucas', 'Davi', 'João']:
+    print(teste1(name))
