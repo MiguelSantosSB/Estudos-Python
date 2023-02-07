@@ -9,17 +9,6 @@ Métodos úteis dos dicionários em Pytyhon
     copy - retorna uma cópia rasa(shallow copy)
     get - obtém uma chave
     pop - apaga um item com a chave especificada(del)
-
-
-
-
-
-
-
-
-
-
+    popitem - Apaga o último item adicionado
+    update - Atualiza um dicionário com outro
 '''
-
-
-
