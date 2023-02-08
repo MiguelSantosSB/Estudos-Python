@@ -52,12 +52,13 @@ def teste_t(lista_para_teste):
     for digit in ordem:
         for list in lista_para_teste:
             if list in numeros_checados:
-                primeiro_duplicado = list[digit]
+                primeiro_duplicado = list
                 # print(primeiro_duplicado)
                 break        
             numeros_checados.add(list)
 
-            return primeiro_duplicado
+        return primeiro_duplicado
 
 for teste in lista:
     print(teste, teste_t(teste))
+    
