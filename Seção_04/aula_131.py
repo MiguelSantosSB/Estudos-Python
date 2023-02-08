@@ -40,16 +40,24 @@ lista = [
 #         lista1,
 #         encontra_primeiro_duplicado(lista1)
 #     )
+# ---------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------
 
-for numeros in lista:
+
+def teste_t(lista_para_teste):
+    ordem = range(10)
     numeros_checados = set()
     primeiro_duplicado = -1
-    if numeros in numeros_checados:
-        primeiro_duplicado = numeros
-        break
-    numeros_checados.add(numeros)
 
-for lista1 in lista:
-    print(lista1,primeiro_duplicado)
+    for digit in ordem:
+        for list in lista_para_teste:
+            if list in numeros_checados:
+                primeiro_duplicado = list[digit]
+                # print(primeiro_duplicado)
+                break        
+            numeros_checados.add(list)
+
+            return primeiro_duplicado
+
+for teste in lista:
+    print(teste, teste_t(teste))
