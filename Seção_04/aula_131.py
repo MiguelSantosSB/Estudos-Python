@@ -44,21 +44,43 @@ lista = [
 
 
 
-def teste_t(lista_para_teste):
-    ordem = range(10)
-    numeros_checados = set()
-    primeiro_duplicado = -1
+# def teste_t(lista_para_teste):
+#     ordem = range(10)
+#     numeros_checados = set()
+#     primeiro_duplicado = -1
 
-    for digit in ordem:
-        for list in lista_para_teste:
-            if list in numeros_checados:
-                primeiro_duplicado = list
-                # print(primeiro_duplicado)
-                break        
-            numeros_checados.add(list)
+#     for digit in ordem:
+#         for list in lista_para_teste:
+#             if list in numeros_checados:
+#                 primeiro_duplicado = list
+#                 # print(primeiro_duplicado)
+#                 break        
+#             numeros_checados.add(list)
 
-        return primeiro_duplicado
+#         return primeiro_duplicado
 
-for teste in lista:
-    print(teste, teste_t(teste))
+# for teste in lista:
+#     print(teste, teste_t(teste))
     
+#---------------------------------------------------------
+
+ordem = range(10)
+numeros_checados = set()
+primeiro_duplicado = -1
+pduplicado = [] 
+
+for digit in ordem:
+    for list in lista:
+        if list[digit] in numeros_checados:
+            primeiro_duplicado = list[digit]
+                # print(primeiro_duplicado)
+            break        
+        numeros_checados.add(list[digit])
+    # pduplicado = primeiro_duplicado
+    # print(list, pduplicado)
+
+
+# for teste in lista:
+#     print(teste, pduplicado)
+
+
